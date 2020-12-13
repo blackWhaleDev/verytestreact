@@ -4,10 +4,16 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+let el = (
+    <React.Fragment>
+        <h1>hq</h1>
+        <h2>he</h2>
+    </React.Fragment>
+);
 ReactDOM.render(
     <React.StrictMode>
         {/*<App/>*/}
-        <h1>Hello World</h1>
+        {el}
     </React.StrictMode>,
     document.getElementById('root')
 );
